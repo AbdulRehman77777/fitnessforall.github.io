@@ -1,0 +1,26 @@
+.imgn{
+    width: 100px;
+    height: 100px;
+}
+.button{
+    
+    position: absolute; /* Position absolutely */
+            top: 25px; /* Position at the top */
+           margin-left: 70%;
+}
+.form{
+    margin-left: 40%;
+    border: 2px solid #000;
+    width: max-content;
+}
+.box{
+    background-color: #f0f0f0; /* Set the background color for the box */
+  border: 2px solid #000; /* Add a border around the box */
+  padding: 200px; /* Add padding inside the box for spacing */
+  width: 40%; /* Set the desired width for the box */
+  margin: 0 auto; /* Center the box horizontally on the page */
+}
+.fullpage{
+    border: 2px solid black;
+    padding: 29px;
+}
