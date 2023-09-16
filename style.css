@@ -10,8 +10,41 @@
 
 
 .head {
-  margin-left: 70%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px; /* Add padding for spacing */
 }
+.nav-button
+{
+  margin-left: auto;
+}
+
+/* Your existing button styles */
+.button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: none; /* Hide buttons by default for mobile */
+  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+
 .first {
   margin-top: 100px;
   width: 45%;
@@ -138,3 +171,60 @@
     
     
     
+    /* Media query for screens with a maximum width of 768px (typical tablet size) */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens here */
+
+
+  .login-div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first {
+    width: 100%; /* Make the banner image full width */
+    margin-left: 0; /* Reset margin to the left */
+  }
+
+  .login {
+    margin: 20px; /* Add margin to center the login form */
+  }
+
+  /* Adjust button styles for smaller screens */
+  .button-81 {
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .join {
+    margin-left: 10%; /* Adjust the position of the 'Join Us' heading */
+    font-size: 30px; /* Adjust font size */
+  }
+
+  .para {
+    margin-left: 10%; /* Adjust paragraph margins */
+    margin-right: 10%;
+    font-size: 20px; /* Adjust font size */
+  }
+
+  .img2 {
+    width: 100%; /* Make the image full width */
+    margin-top: 20px; /* Adjust margin */
+    margin-left: 0; /* Reset margin to the left */
+  }
+
+  .div2 {
+    flex-direction: column; /* Stack div2 content vertically for smaller screens */
+  }
+
+  .heading {
+    margin-top: 20px; /* Adjust margin */
+    margin-left: 10%; /* Adjust margin */
+    font-size: 20px; /* Adjust font size */
+  }
+
+  .para2 {
+    margin-left: 10%; /* Adjust margin */
+    font-size: 16px; /* Adjust font size */
+  }
+}
